@@ -9,8 +9,8 @@
   },
   "author": "",
   "dependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.11.0",
@@ -20,9 +20,10 @@
     "css-loader": "^4.2.0",
     "html-webpack-plugin": "^4.3.0",
     "node-sass": "^6.0.1",
+    "sass": "^1.35.1",
     "sass-loader": "^12.1.0",
     "style-loader": "^1.2.1",
-    "webpack": "^4.44.1",
+    "webpack": "^5.42.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
   },
