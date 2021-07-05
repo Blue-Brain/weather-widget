@@ -10,6 +10,7 @@ module.exports = {
     modules: [path.join(__dirname, 'src'), 'node_modules'],
     alias: {
       react: path.join(__dirname, 'node_modules', 'react'),
+      '@styles': path.resolve(__dirname, 'src/assets/styles/'),
     },
   },
   module: {
@@ -22,15 +23,9 @@ module.exports = {
         },
       },
       {
-        test: /\.css$/,
-        use: [
-          {
-            loader: 'style-loader',
-          },
-          {
-            loader: 'css-loader',
-          },
-        ],
+        test: /\.scss$/,
+        include: /node_modules/,
+        loaders: ["style", "css", "sass"]
       },
     ],
   },
