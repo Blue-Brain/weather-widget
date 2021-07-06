@@ -1,7 +1,7 @@
-import * as React from 'react';
 import { render } from 'react-dom';
+//components
+import MainPage from '@pages/MainPage';
+//style
 import '@styles/base.scss';
 
-import HelloWorld from './App';
-
-render(<HelloWorld />, document.getElementById('root'));
+render(<MainPage />, document.getElementById('root'));
