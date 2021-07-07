@@ -1,6 +1,6 @@
 import { HTMLAttributes } from 'react';
 import './div.scss';
-import classNames from 'classnames'
+import classNames from 'classnames';
 
 export type DivProps = HTMLAttributes<HTMLDivElement> & {
   classnames?: string;

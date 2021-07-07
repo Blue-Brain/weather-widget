@@ -1,7 +1,11 @@
 import Div from '@UI/Div';
 
-const Header = () => {
-  return <Div>
+interface HeaderProps {}
+
+const Header = ({}:HeaderProps) => {
+  return <Div 
+    absolute
+  >
     
   </Div>
 }

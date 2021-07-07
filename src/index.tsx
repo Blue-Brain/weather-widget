@@ -1,7 +1,19 @@
+//libs
 import { render } from 'react-dom';
+import { Router } from 'react-router-dom';
+import { createBrowserHistory } from 'history';
+
 //components
-import MainPage from '@pages/MainPage';
+import App from '@components/App';
+
 //style
 import '@styles/base.scss';
 
-render(<MainPage />, document.getElementById('root'));
+export const history = createBrowserHistory();
+
+render(
+  <Router history={history}>
+    <App/>
+  </Router>,
+  document.getElementById('root')
+);
