@@ -5,11 +5,13 @@ import classNames from 'classnames';
 export type DivProps = HTMLAttributes<HTMLDivElement> & {
   classnames?: string;
   absolute?: boolean;
+  align?: 'left' | 'rigth' | 'center',
 }
 
 const Div = ({
   classnames = '',
   absolute = false,
+  align = 'left',
   children,
   ...restProp
 }: DivProps) => {
