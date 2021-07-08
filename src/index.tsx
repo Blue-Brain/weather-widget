@@ -1,19 +1,16 @@
 //libs
 import { render } from 'react-dom';
-import { Router } from 'react-router-dom';
-import { createBrowserHistory } from 'history';
+import { HashRouter as Router } from 'react-router-dom';
 
 //components
-import App from '@components/App';
+import Root from '@components/Root';
 
 //style
 import '@styles/base.scss';
 
-export const history = createBrowserHistory();
-
 render(
-  <Router history={history}>
-    <App/>
+  <Router>
+    <Root/>
   </Router>,
   document.getElementById('root')
 );
