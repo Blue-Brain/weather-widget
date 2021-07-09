@@ -2,8 +2,6 @@
 import { HTMLAttributes, ComponentType, SVGProps } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import classNames from 'classnames';
-//styles
-import './icon.scss';
 
 export type SVGType = ComponentType<SVGProps<SVGSVGElement>>
 
