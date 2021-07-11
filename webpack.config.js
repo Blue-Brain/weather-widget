@@ -17,6 +17,9 @@ module.exports = {
       '@styles': path.resolve(__dirname, 'src/assets/styles/'),
       '@components': path.resolve(__dirname, 'src/components/'),
       '@pages': path.resolve(__dirname, 'src/pages/'),
+      '@utils': path.resolve(__dirname, 'src/services/utils/'),
+      '@api': path.resolve(__dirname, 'src/services/api/'),
+      '@types': path.resolve(__dirname, 'src/services/types/'),
     },
   },
   module: {
