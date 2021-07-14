@@ -4,3 +4,8 @@ export interface IWeather {
   id: number,
   main: string,  
 } 
+
+export interface ILocationInfo {
+  location: string,
+  countryCode: string,
+}

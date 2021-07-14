@@ -18,7 +18,4 @@ export default {
   getWeatherPlace: async (params: ParamsGetWeather) => 
     await api({prefix})
       .get(`${baseDataUrl}`, params )
-      .then((res) => {
-        res.data
-      })
 }

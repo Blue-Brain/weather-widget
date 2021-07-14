@@ -7,8 +7,9 @@ import Card from "@components/Card";
 //utils
 import api from '@api/weather-api';
 
+
 //interfaces
-import { IWeather } from 'src/services/types/weather-type';
+import { IWeather } from '@Types/weather-type';
 
 
 const MainPage = () => {
@@ -17,9 +18,8 @@ const MainPage = () => {
     const par = {
       params: {q: 'London'},
     }
-    const data = api.getWeatherPlace(par);
-    console.log(data)
-    // setWether(data)
+    api.getWeatherPlace(par)
+      .then(({data}) => {setWether(data.weather)});
   }, [])
   return <>
     <h1>MAIN_PAGE</h1>

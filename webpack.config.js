@@ -19,7 +19,7 @@ module.exports = {
       '@pages': path.resolve(__dirname, 'src/pages/'),
       '@utils': path.resolve(__dirname, 'src/services/utils/'),
       '@api': path.resolve(__dirname, 'src/services/api/'),
-      '@types': path.resolve(__dirname, 'src/services/types/'),
+      '@Types': path.resolve(__dirname, 'src/services/types/'),
     },
   },
   module: {

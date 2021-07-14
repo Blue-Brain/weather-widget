@@ -16,7 +16,7 @@
       "@pages/*": ["src/pages/*"],
       "@utils/*": ["src/services/utils/*"],
       "@api/*": ["src/services/api/*"],
-      "@types/*": ["src/services/types/*"],
+      "@Types/*": ["src/services/types/*"],
     }
   }
 }
